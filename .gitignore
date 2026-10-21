@@ -1,0 +1,15 @@
+# Never commit game data, or anything derived from it: the player brings their own ROM set.
+rom/
+*.zip
+*.key
+*.state
+state*.bin
+
+# Build output and the code translated from the ROM set (work/<id>/gen).
+build/
+work/
+
+.DS_Store
+__pycache__/
+*.log
+shots/
